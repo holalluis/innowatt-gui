@@ -26,3 +26,8 @@ th,td{
 	display:flex;
 	flex-wrap:wrap;
 }
+
+span[onclick]:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}

@@ -23,7 +23,10 @@
 </head><body onload=init()>
 <?php include'navbar.php'?>
 <div id=root>
-<h1>Inici &rsaquo; Veure consum (kW)</h1>
+<h1>
+	<span onclick=window.location='index.php'>Inici</span> 
+	&rsaquo; Veure consum (kW)
+</h1>
 
 <!--tria periode-->
 <div>

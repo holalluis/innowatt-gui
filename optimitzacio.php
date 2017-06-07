@@ -9,4 +9,8 @@
 
 <div>
 	TBD
+	<ul>
+		<li>Montar servidor dedicat?
+		<li>Fer com a servei?
+	</ul>
 </div>

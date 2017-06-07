@@ -10,7 +10,10 @@
 
 <?php include'navbar.php'?>
 <div id=root>
-<h1>Inici &rsaquo; Facturació</h1>
+<h1>
+	<span onclick=window.location='index.php'>Inici</span> 
+	&rsaquo; Facturació
+</h1>
 
 <div> 
 	Selecciona període facturable
@@ -34,6 +37,9 @@
 <div>
 	<div style="width:30%;font-size:28px;border:2px solid #ccc;text-align:center">
 		Total+IVA: 5000€
+	</div>
+	<div>
+		Detalls factura aquí
 	</div>
 </div>
 

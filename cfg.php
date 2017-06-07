@@ -4,7 +4,10 @@
 </head><body>
 <?php include'navbar.php'?>
 <div id=root>
-<h1>Inici &rsaquo; Configuració</h1>
+<h1>
+	<span onclick=window.location='index.php'>Inici</span> 
+	&rsaquo; Configuració
+</h1>
 
 <div>
 	Llista de comptadors
@@ -12,6 +15,7 @@
 		<script>
 			Comptadors.forEach(sistema=>{
 				document.write("<li>"+sistema.nom+
+					" [Tarifa "+sistema.tarifa+"]"+
 					" <button>Editar</button>"+
 					" <button>Eliminar</button>"+
 				"");
